@@ -1,0 +1,14 @@
+plugins {
+    id "net.saliman.properties" version "1.5.1"
+    id "com.marklogic.ml-data-hub" version "5.2.4"
+}
+
+repositories {
+    jcenter()
+    mavenLocal()
+    maven {url "http://developer.marklogic.com/maven2/"}
+}
+
+dependencies {
+    mlBundle "com.marklogic:marklogic-state-conductor:0.7.0"
+}

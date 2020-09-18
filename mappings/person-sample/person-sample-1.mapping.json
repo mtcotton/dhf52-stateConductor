@@ -1,0 +1,20 @@
+{
+  "lang" : "zxx",
+  "name" : "person-sample",
+  "description" : "",
+  "version" : 1,
+  "targetEntityType" : "Person-0.0.1/Person",
+  "sourceContext" : "//",
+  "sourceURI" : "",
+  "properties" : {
+    "id" : {
+      "sourcedFrom" : "id"
+    },
+    "firstName" : {
+      "sourcedFrom" : "first"
+    },
+    "lastName" : {
+      "sourcedFrom" : "last"
+    }
+  }
+}
